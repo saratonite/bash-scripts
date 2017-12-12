@@ -65,7 +65,7 @@ myArgFunc "Simba" "Yoshi"
 
 
 
-# An example 
+#  Call functions inside string 
 
 get_name() {
   echo 'Sarath'
