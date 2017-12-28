@@ -30,4 +30,9 @@ sayBye() {
 
 echo "Message : $(sayBye 'Sarath')"
 
+# 6. echo env variable
 
+echo "Home directory $HOME"
+
+# 7. echo other cli programs
+echo "Current Directory : $(ls)"
