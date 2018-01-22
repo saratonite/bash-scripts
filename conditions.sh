@@ -30,3 +30,18 @@ else
     echo "Nope"
 fi
 
+
+# Greater than
+if [ $v1 -gt 30 ]; then 
+    echo "V1 is big"
+else 
+    echo 'V1 is small'
+fi
+
+# Greater than equal to
+
+# Less than
+
+# Less than equal 
+
+# File / Directory
