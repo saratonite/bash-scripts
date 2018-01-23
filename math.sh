@@ -8,7 +8,7 @@ var1=$(( 5 + 5 ))
 
 echo $var1
 
-# 2 Using variables
+# 2 Using $(()) format  
 
 var2=$(( $var1 * 2 ))
 

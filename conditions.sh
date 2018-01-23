@@ -24,6 +24,10 @@ fi
 # Integer Equals
 v1=20
 v2=20
+
+# Number comparison Equality
+
+# -eq Equality 
 if [ "$v1" -eq $v2 ]; then
     echo "Yep"
 else 
@@ -31,17 +35,40 @@ else
 fi
 
 
-# Greater than
+
+# -gt greaterthan
 if [ $v1 -gt 30 ]; then 
     echo "V1 is big"
 else 
     echo 'V1 is small'
 fi
 
-# Greater than equal to
+# -ge Greater than equal to
 
-# Less than
+# -lt Less than
 
-# Less than equal 
+# -le Less than equal 
 
-# File / Directory
+#TODO: String Comparison 
+
+
+#TODO: File / Directory
+
+# -e check if this file exists
+
+if [ -e strings.sh ]; then
+    echo "File exists!!!"
+else 
+    echo "File Couldnot found";
+fi
+
+
+# -d check if its a directory
+
+workdir="`pwd`"
+
+if [ -d "$workdir" ]; then
+    echo "Directory $workdir exists!!!"
+else 
+    echo "Directory not found"
+fi
