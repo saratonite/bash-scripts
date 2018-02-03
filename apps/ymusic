@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Youtube Music Downloader Script
+# Extract youtube music using youtube-dl and convert to mp3
+# Author : Sarath
+
+
+youtube-dl -i --extract-audio --audio-format mp3 $1
+$1 >> youtube_music_list
